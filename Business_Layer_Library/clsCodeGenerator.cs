@@ -386,7 +386,7 @@ namespace Business_Layer_Library
             string className = OptionalClassName != "" ? OptionalClassName : ClassName;
 
             string content = "";
-            content += "using System;\nusing Microsoft.Data.SqlClient;\n\n\n";
+            content += "using System;\nusing Microsoft.Data.SqlClient;\nusing System.Data;\n\n\n";
             content += "namespace DataAccess_Layer{\n\n";
             content += "public class " + className + " { \n\n";
 
@@ -659,7 +659,7 @@ namespace Business_Layer_Library
             string content = "";
 
 
-            content += $"\n\n\n\tpublic static DataTable GetAll{_Table.TableName}({_Table.GetFullPrimaryKey()}) {{\n";
+            content += $"\n\n\n\tpublic static DataTable GetAll{_Table.TableName}() {{\n";
 
             content += "\n\t\tDataTable dt = new DataTable();\n";
             content += $"\n\t\tstring query = \" SELECT * FROM {_Table.TableName}\";\n";
