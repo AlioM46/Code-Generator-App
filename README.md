@@ -11,4 +11,4 @@
 ##### also it has Many Additional Properties
 ##### Like Creating Composition for Foreign Keys and many of them.
 
-#####very simple, just change the connection string info to your own database credentials.
+##### very simple, just change the connection string info to your own database credentials.
