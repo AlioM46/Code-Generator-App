@@ -11,6 +11,7 @@ A backend utility that generates Layers folders and it's files.
 ### 🛠️ Tech Stack
 - NET Framework.
 - ADO.NET (much faster than EF Core).
+- SQL Server
 
 ### ⚙️ Setup
 ```bash
